@@ -1,0 +1,4 @@
+--- CNN-LSTM Final Results ---
+R2: 0.9096
+RMSE: 623.97
+MAE: 411.92

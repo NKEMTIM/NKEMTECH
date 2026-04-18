@@ -1,0 +1,38 @@
+--- Analyzing Environmental Variables ---
+Total Rows in Cleaned Dataset: 91326
+
+Column: env_slopesolar
+1. Total non-missing: 59614
+2. Percentage non-missing: 65.3%
+3. Valid date range: 2017-05-26 12:10:00 to 2019-02-19 17:00:00
+4. Unique values: 1135
+5. Stats -> Min: 0.0, Max: 1498.0, Mean: 213.15, Median: 68.0
+6. Reliable to keep? YES
+
+Column: env_levelsolar
+1. Total non-missing: 59614
+2. Percentage non-missing: 65.3%
+3. Valid date range: 2017-05-26 12:10:00 to 2019-02-19 17:00:00
+4. Unique values: 1276
+5. Stats -> Min: 0.0, Max: 1300.0, Mean: 232.23, Median: 55.0
+6. Reliable to keep? YES
+
+Column: env_modtemp
+1. Total non-missing: 59614
+2. Percentage non-missing: 65.3%
+3. Valid date range: 2017-05-26 12:10:00 to 2019-02-19 17:00:00
+4. Unique values: 5152
+5. Stats -> Min: 0.0, Max: 64.4, Mean: 17.38, Median: 16.9
+6. Reliable to keep? YES
+
+Column: env_airtemp
+1. Total non-missing: 59614
+2. Percentage non-missing: 65.3%
+3. Valid date range: 2017-05-26 12:10:00 to 2019-02-19 17:00:00
+4. Unique values: 5161
+5. Stats -> Min: 0.0, Max: 49.6, Mean: 15.39, Median: 14.8
+6. Reliable to keep? YES
+
+--- Final Recommendation ---
+KEEP: env_slopesolar, env_levelsolar, env_modtemp, env_airtemp
+DROP: None

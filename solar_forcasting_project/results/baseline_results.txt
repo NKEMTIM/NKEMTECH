@@ -1,0 +1,23 @@
+Remaining valid rows after dropping missing data: 36248
+
+--- Summary Statistics ---
+env_slopesolar (Input):
+  Mean: 342.84
+  Median: 324.00
+  Std Dev: 262.20
+
+pow_acp (Target):
+  Mean: 3269.01
+  Median: 2800.00
+  Std Dev: 2358.56
+
+--- Model Evaluation (Test Set) ---
+R² Score: 0.7769
+RMSE: 1107.07
+MAE: 783.11
+
+--- Regression Equation ---
+AC Power = 532.86 + 7.98 × env_slopesolar
+
+--- Interpretation ---
+Solar irradiance explains AC power decently well (R² = 0.78), but there is significant variance. Modtemp or other factors likely impact inverter efficiency.

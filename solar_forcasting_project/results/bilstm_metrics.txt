@@ -1,0 +1,4 @@
+--- Bi-LSTM Final Results ---
+R2: 0.9132
+RMSE: 611.56
+MAE: 395.31
