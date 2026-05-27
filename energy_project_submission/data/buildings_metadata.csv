@@ -1,0 +1,5 @@
+building_id,building_type,display_name,city_x,city_z,height_factor
+1,Commercial,Commercial Center,10.0,15.0,1.2
+2,Office,Office Tower,20.0,25.0,2.5
+3,Public,Public Library,30.0,35.0,1.0
+4,Residential,Residential Complex,40.0,45.0,1.5

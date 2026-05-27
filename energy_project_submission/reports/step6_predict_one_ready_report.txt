@@ -1,0 +1,7 @@
+Step 6: predict_one Ready Report
+================================
+
+- predict_one(features: dict) returns only predicted_kw as a float
+- predict_one_with_risk(features: dict) returns predicted_kw plus risk_level
+- the interface is ready for FastAPI backend integration
+- backend must provide the same feature columns used during model training

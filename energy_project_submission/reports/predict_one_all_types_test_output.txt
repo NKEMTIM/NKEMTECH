@@ -1,0 +1,32 @@
+Building Type: Commercial
+Prediction Output:
+{
+  "building_type": "Commercial",
+  "predicted_kw": 803.76,
+  "risk_level": "warning"
+}
+----------------------------------------
+Building Type: Office
+Prediction Output:
+{
+  "building_type": "Office",
+  "predicted_kw": 205.74,
+  "risk_level": "normal"
+}
+----------------------------------------
+Building Type: Public
+Prediction Output:
+{
+  "building_type": "Public",
+  "predicted_kw": 174.81,
+  "risk_level": "normal"
+}
+----------------------------------------
+Building Type: Residential
+Prediction Output:
+{
+  "building_type": "Residential",
+  "predicted_kw": 367.32,
+  "risk_level": "warning"
+}
+----------------------------------------
